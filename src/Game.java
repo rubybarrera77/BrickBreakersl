@@ -13,8 +13,8 @@ public class Game extends JFrame {
         add(board);
         pack();
 
-        board.setup();
         setLocationRelativeTo(null);
+        board.setup();
     }
 
 

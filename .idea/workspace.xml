@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="10cdd2db-b956-4b36-9e35-b408126318cf" name="Default Changelist" comment="" />
+    <list default="true" id="10cdd2db-b956-4b36-9e35-b408126318cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Brick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Brick.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X7pYLgFYEjbzqJtpNM7Ye9VCGc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,9 +33,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ SpaceThing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pong" />
   </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -64,7 +76,9 @@
       <updated>1580407033727</updated>
       <workItem from="1580407037199" duration="1398000" />
       <workItem from="1580492354415" duration="2705000" />
-      <workItem from="1580837946632" duration="2372000" />
+      <workItem from="1580837946632" duration="2627000" />
+      <workItem from="1580924322203" duration="392000" />
+      <workItem from="1580924767452" duration="2292000" />
     </task>
     <servers />
   </component>
@@ -72,30 +86,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2180" y="184" key="FileChooserDialogImpl" timestamp="1580838044823">
+    <state x="2180" y="184" key="FileChooserDialogImpl" timestamp="1580925162750">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
-    <state x="2180" y="184" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580838044823" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1580840326765">
+    <state x="2180" y="184" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580925162750" />
+    <state x="2270" y="323" width="260" height="214" key="Github.ShareDialog" timestamp="1580840502605">
+      <screen x="1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="2270" y="323" width="260" height="214" key="Github.ShareDialog/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580840502605" />
+    <state x="2165" y="135" key="Github.UntrackedFilesDialog" timestamp="1580840511800">
+      <screen x="1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="2165" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580840511800" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1580927009698">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1580495002525" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580840326765" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1580840326765">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580927009698" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1580927009698">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1580495002525" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580840326765" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1580840326765">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580927009698" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1580927009698">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1580495002524" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580840326765" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1580840326765">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580927009698" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1580927009698">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
     <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1580495002525" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580840326765" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580927009698" />
     <state x="2095" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1580837953088">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>

@@ -1,29 +1,44 @@
 import javax.swing.*;
 import java.awt.*;
-import java.util.ArrayList;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-public class Board extends JPanel {
+public class Board extends JPanel implements ActionListener{
+
+    final int WIDTH = 1200;
+    final int HEIGHT = 700;
 
     Game game;
     Player player;
     Ball ball;
     Brick brick;
     Brick[][] bricks = new Brick[7][15];
+    Timer timer;
 
     public Board(Game game){
         this.game = game;
-        setPreferredSize(new Dimension(1200, 700));
-        setBackground(Color.BLUE);
+        setPreferredSize(new Dimension(WIDTH, HEIGHT));
+        setBackground(Color.PINK);
+        timer = new Timer(1000/60, this);
+        timer.start();
     }
-    
+
     public void setup(){
         player = new Player(this);
         ball = new Ball(this);
         for(int row = 0; row < 7; row++){
             for(int col = 0; col < 15; col++){
-                bricks[row][col] = new Brick(getWidth()/6 + (col*60), row*30 + (getHeight()/6));
+                bricks[row][col] = new Brick(getWidth()/7 + (col*60), row*30 + (getHeight()/5));
             }
         }
+    }
+
+    public int getWIDTH() {
+        return WIDTH;
+    }
+
+    public int getHEIGHT() {
+        return HEIGHT;
     }
 
     @Override
@@ -36,7 +51,12 @@ public class Board extends JPanel {
                 bricks[row][col].paint(g);
             }
         }
+
     }
 
-
+    @Override
+    public void actionPerformed(ActionEvent e) {
+        ball.move();
+        repaint();
+    }
 }
