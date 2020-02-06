@@ -4,6 +4,15 @@ public class Brick {
 
     int x, y, WIDTH = 50 , HEIGHT = 20;
 
+    int r = (int)(Math.random()*256);
+    int g = (int)(Math.random()*256);
+    int b = (int)(Math.random()*256);
+
+    Color color = new Color(r, g, b);
+    public Color getColor(){
+        return color;
+    }
+
     public Brick(){
         x = 70;
         y = 70;
@@ -15,7 +24,7 @@ public class Brick {
     }
 
     public void paint(Graphics g){
-        g.setColor(Color.BLACK);
+        g.setColor(getColor());
         g.fillRect(x, y, WIDTH, HEIGHT);
     }
 
