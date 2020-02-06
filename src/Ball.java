@@ -4,7 +4,7 @@ public class Ball {
 
     int x, y;
     final int DIAMETER = 30;
-    final int SPEED = 5;
+    final int SPEED = 1;
 
     double dx = SPEED, dy = SPEED;
 
@@ -70,6 +70,14 @@ public class Ball {
 
     public int getY() {
         return y;
+    }
+
+    public double getDy() {
+        return dy;
+    }
+
+    public void setDy(double dy) {
+        this.dy = dy;
     }
 
     public int getDiam(){

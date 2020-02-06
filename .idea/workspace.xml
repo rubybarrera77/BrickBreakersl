@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10cdd2db-b956-4b36-9e35-b408126318cf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ball.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Board.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Brick.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Brick.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pong" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ SpaceThing" />
   </component>
   <component name="RunManager">
     <configuration name="Game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -78,17 +78,38 @@
       <workItem from="1580837946632" duration="2627000" />
       <workItem from="1580924322203" duration="392000" />
       <workItem from="1580924767452" duration="2292000" />
-      <workItem from="1581010822460" duration="272000" />
+      <workItem from="1581010822460" duration="2314000" />
     </task>
+    <task id="LOCAL-00001" summary="Wednesday-ColorMethod">
+      <created>1581011130681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581011130682</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Wednesday-ColorMethod" />
+    <option name="LAST_COMMIT_MESSAGE" value="Wednesday-ColorMethod" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="2180" y="184" key="FileChooserDialogImpl" timestamp="1580925162750">
+    <state x="2205" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1581013010191">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
+    <state x="2205" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581013010191" />
+    <state x="2021" y="24" key="CommitChangelistDialog2" timestamp="1581011126554">
+      <screen x="1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="2021" y="24" key="CommitChangelistDialog2/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581011126554" />
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1581011711631">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1581011711631" />
     <state x="2180" y="184" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580925162750" />
     <state x="2270" y="323" width="260" height="214" key="Github.ShareDialog" timestamp="1580840502605">
       <screen x="1600" y="0" width="1600" height="860" />
@@ -98,26 +119,30 @@
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
     <state x="2165" y="135" key="Github.UntrackedFilesDialog/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1580840511800" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1581011047371">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom" timestamp="1581013288493">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1580495002525" />
-    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581011047371" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1581011047371">
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1581011604271" />
+    <state width="1557" height="222" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581013288493" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center" timestamp="1581013288493">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1580495002525" />
-    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581011047371" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1581011047371">
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1581011604271" />
+    <state width="1557" height="222" key="GridCell.Tab.0.center/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581013288493" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left" timestamp="1581013288493">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1580495002524" />
-    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581011047370" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1581011047371">
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1581011604271" />
+    <state width="1557" height="222" key="GridCell.Tab.0.left/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581013288493" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right" timestamp="1581013288493">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1580495002525" />
-    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581011047371" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@0.0.1600.860" timestamp="1581011604271" />
+    <state width="1557" height="222" key="GridCell.Tab.0.right/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581013288493" />
+    <state x="1992" y="162" key="Vcs.Push.Dialog.v2" timestamp="1581011135892">
+      <screen x="1600" y="0" width="1600" height="860" />
+    </state>
+    <state x="1992" y="162" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1600.860@1600.0.1600.860" timestamp="1581011135892" />
     <state x="2095" y="253" key="com.intellij.ide.util.TipDialog" timestamp="1580837953088">
       <screen x="1600" y="0" width="1600" height="860" />
     </state>

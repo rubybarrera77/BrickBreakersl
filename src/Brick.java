@@ -28,6 +28,8 @@ public class Brick {
         g.fillRect(x, y, WIDTH, HEIGHT);
     }
 
-
+    public Rectangle getBounds(){
+        return new Rectangle(x, y, WIDTH, HEIGHT);
+    }
 
 }
