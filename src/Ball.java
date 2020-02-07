@@ -4,7 +4,7 @@ public class Ball {
 
     int x, y;
     final int DIAMETER = 30;
-    final int SPEED = 1;
+    final int SPEED = 5;
 
     double dx = SPEED, dy = SPEED;
 
@@ -24,7 +24,7 @@ public class Ball {
         if(x+ DIAMETER >= board.getWidth()){
             dx*=-1;
         }
-        if(y <= 0 || y + DIAMETER >= board.getHeight()){
+        if(y <= 0){
             dy*=-1;
         }
 
@@ -57,7 +57,15 @@ public class Ball {
             }
         }
 
+        if(y + DIAMETER >= board.getHeight()){
+            board.setLives(board.getLives()-1);
+            p.setX(board.getWidth()/4);
+            setX((board.getWidth()/2) - DIAMETER/2);
+            dy*=-1;
+        }
+
     }
+
 
     public void paint(Graphics g){
         g.setColor(Color.WHITE);
@@ -70,6 +78,10 @@ public class Ball {
 
     public int getY() {
         return y;
+    }
+
+    public void setX(int x) {
+        this.x = x;
     }
 
     public double getDy() {

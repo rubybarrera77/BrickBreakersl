@@ -2,14 +2,14 @@ import java.awt.*;
 
 public class Player {
     int x, y;
-    final int WIDTH = 200, HEIGHT = 20;
-    double speed, dx= 5;
+    final int WIDTH = 150, HEIGHT = 20;
+    double dx= 7;
     Board board;
     Ball ball;
 
     public Player(Board board){
         x = (board.getWidth()/2) - WIDTH/2;
-        y = board.getHeight() - (HEIGHT + 50);
+        y = board.getHeight() - (HEIGHT + 30);
     }
 
     public Rectangle getBounds(){
@@ -31,6 +31,10 @@ public class Player {
 
     public int getX(){
         return x;
+    }
+
+    public void setX(int x) {
+        this.x = x;
     }
 
     public int getY(){
